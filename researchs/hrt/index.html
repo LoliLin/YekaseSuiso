@@ -60,6 +60,22 @@
             font-size: 0.9em;
             color: #666;
         }
+        .contact-icons {
+            margin-top: 25px;
+        }
+        .contact-icons a {
+            display: inline-block;
+            margin: 0 15px;
+            transition: opacity 0.3s ease;
+        }
+        .contact-icons a:hover {
+            opacity: 0.7;
+        }
+        .contact-icons svg {
+            width: 32px;
+            height: 32px;
+            fill: #555;
+        }
     </style>
 </head>
 <body>
@@ -77,16 +93,31 @@
             <p>请根据您的偏好，在以下两个平台中选择一个完成问卷。</p>
             
             <!-- TODO: 请将下面的 "YOUR_GOOGLE_FORM_URL_HERE" 替换为您的谷歌问卷链接 -->
-            <a href="google" target="_blank" rel="noopener noreferrer">Google 问卷</a>
+            <a href="https://forms.gle/amJaJ9cF12Y1rQNB6" target="_blank" rel="noopener noreferrer">Google 问卷</a>
             
             <!-- TODO: 请将下面的 "YOUR_TENCENT_FORM_URL_HERE" 替换为您的腾讯问卷链接 -->
-            <a href="tencent" target="_blank" rel="noopener noreferrer" class="tencent-link">腾讯问卷</a>
+            <a href="https://wj.qq.com/s2/25282469/3e02" target="_blank" rel="noopener noreferrer" class="tencent-link">腾讯问卷</a>
         </div>
     </main>
 
     <footer>
         <p>本调查旨在了解无处方HRT的相关情况，所有数据将严格保密。</p>
+        <div class="contact-icons">
+            <!-- TODO: 替换为您的 Discord 邀请链接 -->
+            <a href="oriyukisuzumiya" target="_blank" rel="noopener noreferrer" title="加入我们的Discord">
+                <svg viewBox="0 0 245 240"><path d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zm36.7 0c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/><path d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.6 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.9 1-27.9-.2-5.7-.8-11-2.2-16.1-4.4-3.9-1.7-7.4-3.6-10.5-5.9-1.5-1.2-2.8-2.5-4.1-4.2-.1-.2-.3-.3-.4-.5-.2-.2-.3-.4-.3-.5 0 0 5.2 8.3 18.3 11.9-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.8-2.1 5.8-4c10.7-6.4 21.9-7.5 33.4-7.2 11.5.3 22.3 2.5 32.1 7.2 3 1.8 5.8 4 5.8 4s-8.4-7.9-26.4-13.1l1-1.2s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.4 14.5-30.5 15.2z"/></svg>
+            </a>
+            <!-- TODO: 替换为您的 Telegram 链接 -->
+            <a href="t.me/OriyukiNako" target="_blank" rel="noopener noreferrer" title="在Telegram上联系我们">
+                <svg viewBox="0 0 240 240"><path d="M98 175c-3.8 0-3.2-1.2-4.7-4.2l-13-39c-2.3-6.6-8.5-9-14-9H34c-11 0-11-5.6-11-12.2 0-6.6 0-12.2 11-12.2h35.5c11 0 11 5.7 11 12.2s0 12.2-11 12.2H63s11.3 34.6 12 36.6c.6 2 2.5 2.5 4 2.5 2.5 0 5-2.2 5-2.2l20-19c2.4-2 4-3 6-3s4 1 6 3l37 28c4.6 3.4 8.7 1.7 10-4L194 43c2-8-3-11-8-9L33 87c-8 3.2-8 7.6-1.5 9.4L64 109c5 1.5 9.5-1.5 11-7l66-41c3.7-2 6.5-1 3.5 1.5L81 149c-3 2-3 4 .5 5.5l28.5 9c2.5.8 6 1.7 6 5.2s-2.2 4-2.2 4z"/></svg>
+            </a>
+            <!-- TODO: 替换为您的 Email 地址 -->
+            <a href="hydrogennako@gmail.com" title="发送邮件给我们">
+                <svg viewBox="0 0 512 512"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-14.2 86.8c-10.2-11.8-28.5-10.3-38.8 3.5L256 248.2 101 154.3c-10.3-13.8-28.6-15.3-38.8-3.5-10.2 11.8-8.7 30.1 3.5 40.3l160 213.3c6.3 8.5 16.2 13.5 26.5 13.5s20.2-5.1 26.5-13.5l160-213.3c12.2-10.2 13.7-28.5 3.5-40.3z"/></svg>
+            </a>
+        </div>
     </footer>
 
 </body>
 </html>
+
