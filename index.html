@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index of suiso.kawaiis.in</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        header {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        
+        .placeholder-box {
+            background-color: white;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+        
+        .placeholder-icon {
+            font-size: 4rem;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+        
+        .placeholder-text {
+            font-size: 1.5rem;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        
+        .placeholder-description {
+            color: #999;
+            font-size: 1rem;
+            max-width: 500px;
+            margin: 0 auto 25px;
+        }
+        
+        .directory-structure {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: left;
+            font-family: monospace;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        
+        .directory-structure div {
+            padding: 3px 0;
+        }
+        
+        .directory-structure i {
+            margin-right: 10px;
+            color: #aaa;
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .placeholder-box {
+                padding: 30px 20px;
+            }
+            
+            .placeholder-text {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Index of suiso.kawaiis.in</h1>
+            <div class="subtitle">Directory Listing Placeholder</div>
+        </header>
+        
+        <main>
+            <div class="placeholder-box">
+                <div class="placeholder-icon">📁</div>
+                <div class="placeholder-text">This is a placeholder page</div>
+                <div class="placeholder-description">
+                    This page serves as a placeholder for the directory index of <strong>suiso.kawaiis.in</strong>.
+                    Actual directory contents are not displayed here.
+                </div>
+                
+                <div class="directory-structure">
+                    <div><i>📁</i> / (root directory)</div>
+                    <div><i>└──</i> [Directory contents not shown]</div>
+                    <div><i>&nbsp;&nbsp;&nbsp;&nbsp;├──</i> [File list would appear here]</div>
+                    <div><i>&nbsp;&nbsp;&nbsp;&nbsp;├──</i> [In a real directory index]</div>
+                    <div><i>&nbsp;&nbsp;&nbsp;&nbsp;└──</i> [With file details and links]</div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>This is a placeholder HTML page for demonstration purposes.</p>
+            <p>Generated on <span id="current-date">June 15, 2023</span></p>
+        </footer>
+    </div>
+
+    <script>
+        // Set current date
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('current-date').textContent = now.toLocaleDateString('en-US', options);
+    </script>
+</body>
+</html>
